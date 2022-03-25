@@ -1,0 +1,10 @@
+{
+  "extends": "@damilaredev/tsconfig/tsconfig.web.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "isolatedModules": false,
+    "types": ["vite/client"]
+  },
+  "exclude": ["node_modules", "dist", "examples", "scripts"],
+  "include": ["./src/**/*"]
+}

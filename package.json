@@ -1,0 +1,50 @@
+{
+  "name": "@damilaredev/vue-alert",
+  "version": "0.0.1",
+  "description": "Vue 3 Alert",
+  "files": [
+    "dist",
+    "src/types.ts",
+    "src/index.d.ts"
+  ],
+  "main": "./dist/index.es.js",
+  "module": "./dist/index.es.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damilaredevone/vue-alert.git"
+  },
+  "keywords": [
+    "modal",
+    "popup",
+    "vue",
+    "3",
+    "alert",
+    "vue"
+  ],
+  "author": "damilare anjorin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/damilaredevone/vue-alert/issues"
+  },
+  "homepage": "https://github.com/damilaredevone/vue-alert#readme",
+  "devDependencies": {
+    "@damilaredev/eslint-config-vue": "^0.0.11",
+    "@damilaredev/tsconfig": "^1.5.0",
+    "@vitejs/plugin-vue": "^2.2.4",
+    "eslint": "^8.11.0",
+    "typescript": "^4.6.3",
+    "vite": "^2.8.6",
+    "vue": "^3.2.31",
+    "vue-tsc": "^0.33.9"
+  }
+}
