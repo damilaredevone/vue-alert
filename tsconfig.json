@@ -2,6 +2,7 @@
   "extends": "@damilaredev/tsconfig/tsconfig.web.json",
   "compilerOptions": {
     "baseUrl": ".",
+    "skipLibCheck": true,
     "isolatedModules": false,
     "types": ["vite/client"]
   },
