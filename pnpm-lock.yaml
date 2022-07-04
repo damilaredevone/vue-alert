@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@damilaredev/eslint-config-vue': 0.0.14
+  '@damilaredev/eslint-config-vue': 0.0.15
   '@damilaredev/tsconfig': 1.5.1
   '@types/node': 17.0.31
   '@vitejs/plugin-vue': 2.3.3
@@ -13,7 +13,7 @@ specifiers:
   vue-tsc: 0.38.2
 
 devDependencies:
-  '@damilaredev/eslint-config-vue': 0.0.14_eslint@8.19.0+typescript@4.7.4
+  '@damilaredev/eslint-config-vue': 0.0.15_eslint@8.19.0+typescript@4.7.4
   '@damilaredev/tsconfig': 1.5.1
   '@types/node': 17.0.31
   '@vitejs/plugin-vue': 2.3.3_vite@2.9.13+vue@3.2.37
@@ -33,8 +33,8 @@ packages:
       '@babel/highlight': 7.16.10
     dev: true
 
-  /@babel/helper-validator-identifier/7.16.7:
-    resolution: {integrity: sha512-hsEnFemeiW4D08A5gUAZxLBTXpZ39P+a+DGDsHw1yxqyQ/jzFEnxf5uTEGp+3bzAbNOxU1paTgYS4ECU/IgfDw==}
+  /@babel/helper-validator-identifier/7.18.6:
+    resolution: {integrity: sha512-MmetCkz9ej86nJQV+sFCxoGGrUbU3q02kgLciwkrt9QqEB7cP39oKEY0PakknEO0Gu20SskMRi+AYZ3b1TpN9g==}
     engines: {node: '>=6.9.0'}
     dev: true
 
@@ -42,7 +42,7 @@ packages:
     resolution: {integrity: sha512-5FnTQLSLswEj6IkgVw5KusNUUFY9ZGqe/TRFnP/BKYHYgfh7tc+C7mwiy95/yNP7Dh9x580Vv8r7u7ZfTBFxdw==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/helper-validator-identifier': 7.16.7
+      '@babel/helper-validator-identifier': 7.18.6
       chalk: 2.4.2
       js-tokens: 4.0.0
     dev: true
@@ -59,12 +59,12 @@ packages:
     resolution: {integrity: sha512-vhAmLPAiC8j9K2GnsnLPCIH5wCrPpYIVBCWRBFDCB7Y/BXLqi/O+1RSTTM2bsmg6U/551+FCf9PNPxjABmxHTw==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/helper-validator-identifier': 7.16.7
+      '@babel/helper-validator-identifier': 7.18.6
       to-fast-properties: 2.0.0
     dev: true
 
-  /@damilaredev/eslint-config-basic/0.0.14_10f61394212154cea56998df13c530d5:
-    resolution: {integrity: sha512-4r7r6GP14vtKeOe+wTjq9KODftgYqcDZYxTyYX3EXjNDoOg7stvtnn3ahe0EoP6X03Bf+bovFUUAVOhr7ScGdA==}
+  /@damilaredev/eslint-config-basic/0.0.15_10f61394212154cea56998df13c530d5:
+    resolution: {integrity: sha512-KSzkkPL1jNdgg7Rkp/gpJUM6SIWQ5f6nIUQuSNZHmU1BdS8QrMgTPBwIKfZADJcRDXX39Qgqa1OAjPE1CaKIGw==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
@@ -76,7 +76,7 @@ packages:
       eslint-plugin-jsonc: 2.2.1_eslint@8.19.0
       eslint-plugin-n: 15.1.0_eslint@8.19.0
       eslint-plugin-promise: 6.0.0_eslint@8.19.0
-      eslint-plugin-unicorn: 42.0.0_eslint@8.19.0
+      eslint-plugin-unicorn: 43.0.0_eslint@8.19.0
       eslint-plugin-yml: 1.0.0_eslint@8.19.0
       jsonc-eslint-parser: 2.1.0
       yaml-eslint-parser: 1.0.1
@@ -87,13 +87,13 @@ packages:
       - supports-color
     dev: true
 
-  /@damilaredev/eslint-config-typescript/0.0.14_eslint@8.19.0+typescript@4.7.4:
-    resolution: {integrity: sha512-du+9qpqegBqCl8wtSedzLM8ZwPIlbnG+L/2uuszzqVeKZ4t1HJ1qHAe+20iQzxavgPl/UYmXqV7RLE5JJ1QVQw==}
+  /@damilaredev/eslint-config-typescript/0.0.15_eslint@8.19.0+typescript@4.7.4:
+    resolution: {integrity: sha512-FN6tWpUzBd4ndHUWrK9tlC7kJriFU2dvnphHlRmqFPDol+Na1WtVFY7/qtXeTenKX1pILF64x19dC/9E1ODdfA==}
     peerDependencies:
       eslint: '>=7.4.0'
       typescript: '>=3.9'
     dependencies:
-      '@damilaredev/eslint-config-basic': 0.0.14_10f61394212154cea56998df13c530d5
+      '@damilaredev/eslint-config-basic': 0.0.15_10f61394212154cea56998df13c530d5
       '@typescript-eslint/eslint-plugin': 5.16.0_c7dd1be6ed86d2dc988945fe450ba0c6
       '@typescript-eslint/parser': 5.16.0_eslint@8.19.0+typescript@4.7.4
       eslint: 8.19.0
@@ -104,12 +104,12 @@ packages:
       - supports-color
     dev: true
 
-  /@damilaredev/eslint-config-vue/0.0.14_eslint@8.19.0+typescript@4.7.4:
-    resolution: {integrity: sha512-qtIGIycJCM+KaegTYKiaRBXKcOs+KEe0usQX6Qc0j3szipWtmEBNKnea5tHmuQJu6Pn5744WyQpkiaNfzf7s1w==}
+  /@damilaredev/eslint-config-vue/0.0.15_eslint@8.19.0+typescript@4.7.4:
+    resolution: {integrity: sha512-8AXcBn92OPIKro8+o/DkO5Hcw/Jf3N4WykTGF85X8fl5Vj5qVLBJMByfA7yXElkQQIsD+2ag+hTkBjF+2xaqQA==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@damilaredev/eslint-config-typescript': 0.0.14_eslint@8.19.0+typescript@4.7.4
+      '@damilaredev/eslint-config-typescript': 0.0.15_eslint@8.19.0+typescript@4.7.4
       eslint: 8.19.0
       eslint-plugin-vue: 9.1.0_eslint@8.19.0
     transitivePeerDependencies:
@@ -607,8 +607,8 @@ packages:
       supports-color: 7.2.0
     dev: true
 
-  /ci-info/3.3.0:
-    resolution: {integrity: sha512-riT/3vI5YpVH6/qomlDnJow6TBee2PBKSEpx3O32EGPYbWGIRsIlGRms3Sm74wYE1JMo8RnO04Hb12+v1J5ICw==}
+  /ci-info/3.3.2:
+    resolution: {integrity: sha512-xmDt/QIAdeZ9+nfdPsaBCpMvHNLFiLdjj59qjqn+6iPe6YmHGQ35sBnQ8uslRBXFmXkiZQOJRjvQeoGppoTjjg==}
     dev: true
 
   /clean-regexp/1.0.0:
@@ -1169,14 +1169,14 @@ packages:
       eslint: 8.19.0
     dev: true
 
-  /eslint-plugin-unicorn/42.0.0_eslint@8.19.0:
-    resolution: {integrity: sha512-ixBsbhgWuxVaNlPTT8AyfJMlhyC5flCJFjyK3oKE8TRrwBnaHvUbuIkCM1lqg8ryYrFStL/T557zfKzX4GKSlg==}
-    engines: {node: '>=12'}
+  /eslint-plugin-unicorn/43.0.0_eslint@8.19.0:
+    resolution: {integrity: sha512-Z/6HX8yry+zAjo4jHHTAbe1rfniox7qgmCReGBfTc/CVgotfScaMCc4dtSSTHlJ+7Yix5o6LPXzwwpuGGFricg==}
+    engines: {node: '>=14.18'}
     peerDependencies:
-      eslint: '>=8.8.0'
+      eslint: '>=8.18.0'
     dependencies:
-      '@babel/helper-validator-identifier': 7.16.7
-      ci-info: 3.3.0
+      '@babel/helper-validator-identifier': 7.18.6
+      ci-info: 3.3.2
       clean-regexp: 1.0.0
       eslint: 8.19.0
       eslint-utils: 3.0.0_eslint@8.19.0
@@ -2237,7 +2237,7 @@ packages:
     dev: true
 
   /strip-bom/3.0.0:
-    resolution: {integrity: sha1-IzTBjpx1n3vdVv3vfprj1YjmjtM=}
+    resolution: {integrity: sha512-vavAMRXOgBVNF6nyEEmL3DBK19iRpDcoIwW+swQ+CbGiu7lju6t+JklA1MHweoWtadgt4ISVUsXLyDq34ddcwA==}
     engines: {node: '>=4'}
     dev: true
 
@@ -2360,7 +2360,7 @@ packages:
     dev: true
 
   /util-deprecate/1.0.2:
-    resolution: {integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=}
+    resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
   /v8-compile-cache/2.3.0:
