@@ -45,7 +45,7 @@
     "vue": "^3.2.*"
   },
   "devDependencies": {
-    "@damilaredev/eslint-config-vue": "0.0.16",
+    "@damilaredev/eslint-config-vue": "0.0.17",
     "@damilaredev/tsconfig": "1.5.2",
     "@types/node": "17.0.31",
     "@vitejs/plugin-vue": "3.1.2",
