@@ -4,7 +4,7 @@ specifiers:
   '@damilaredev/eslint-config-vue': 0.0.18
   '@damilaredev/tsconfig': 1.5.2
   '@types/node': 18.16.8
-  '@vitejs/plugin-vue': 4.2.2
+  '@vitejs/plugin-vue': 4.2.3
   bumpp: 9.1.0
   eslint: 8.40.0
   typescript: 5.0.4
@@ -16,7 +16,7 @@ devDependencies:
   '@damilaredev/eslint-config-vue': 0.0.18_eslint@8.40.0+typescript@5.0.4
   '@damilaredev/tsconfig': 1.5.2
   '@types/node': 18.16.8
-  '@vitejs/plugin-vue': 4.2.2_vite@4.3.5+vue@3.3.1
+  '@vitejs/plugin-vue': 4.2.3_vite@4.3.5+vue@3.3.1
   bumpp: 9.1.0
   eslint: 8.40.0
   typescript: 5.0.4
@@ -555,8 +555,8 @@ packages:
       eslint-visitor-keys: 3.4.1
     dev: true
 
-  /@vitejs/plugin-vue/4.2.2_vite@4.3.5+vue@3.3.1:
-    resolution: {integrity: sha512-kNH4wMAqs13UiZe/2If1ioO0Mjz71rr2oALTl2c5ajBIox9Vz/UGW/wGkr7GA3SC6Eb29c1HtzAtxdGfbXAkfQ==}
+  /@vitejs/plugin-vue/4.2.3_vite@4.3.5+vue@3.3.1:
+    resolution: {integrity: sha512-R6JDUfiZbJA9cMiguQ7jxALsgiprjBeHL5ikpXfJCH62pPHtI+JdJ5xWj6Ev73yXSlYl86+blXn1kZHQ7uElxw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.0.0
