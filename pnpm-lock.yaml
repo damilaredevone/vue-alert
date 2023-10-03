@@ -8,7 +8,7 @@ specifiers:
   bumpp: 9.2.0
   eslint: 8.50.0
   typescript: 5.2.2
-  vite: 4.4.9
+  vite: 4.4.10
   vue: 3.3.4
   vue-tsc: 1.8.15
 
@@ -16,11 +16,11 @@ devDependencies:
   '@damilaredev/eslint-config-vue': 0.0.19_eslint@8.50.0+typescript@5.2.2
   '@damilaredev/tsconfig': 1.5.2
   '@types/node': 18.18.3
-  '@vitejs/plugin-vue': 4.4.0_vite@4.4.9+vue@3.3.4
+  '@vitejs/plugin-vue': 4.4.0_vite@4.4.10+vue@3.3.4
   bumpp: 9.2.0
   eslint: 8.50.0
   typescript: 5.2.2
-  vite: 4.4.9_@types+node@18.18.3
+  vite: 4.4.10_@types+node@18.18.3
   vue: 3.3.4
   vue-tsc: 1.8.15_typescript@5.2.2
 
@@ -572,14 +572,14 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: true
 
-  /@vitejs/plugin-vue/4.4.0_vite@4.4.9+vue@3.3.4:
+  /@vitejs/plugin-vue/4.4.0_vite@4.4.10+vue@3.3.4:
     resolution: {integrity: sha512-xdguqb+VUwiRpSg+nsc2HtbAUSGak25DXYvpQQi4RVU1Xq1uworyoH/md9Rfd8zMmPR/pSghr309QNcftUVseg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.4.9_@types+node@18.18.3
+      vite: 4.4.10_@types+node@18.18.3
       vue: 3.3.4
     dev: true
 
@@ -2747,8 +2747,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite/4.4.9_@types+node@18.18.3:
-    resolution: {integrity: sha512-2mbUn2LlUmNASWwSCNSJ/EG2HuSRTnVNaydp6vMCm5VIqJsjMfbIWtbH2kDuwUVW5mMUKKZvGPX/rqeqVvv1XA==}
+  /vite/4.4.10_@types+node@18.18.3:
+    resolution: {integrity: sha512-TzIjiqx9BEXF8yzYdF2NTf1kFFbjMjUSV0LFZ3HyHoI3SGSPLnnFUKiIQtL3gl2AjHvMrprOvQ3amzaHgQlAxw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
